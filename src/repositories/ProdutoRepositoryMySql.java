@@ -13,9 +13,9 @@ public class ProdutoRepositoryMySql implements IProdutoRepository {
 	public void inserir(Produto produto) throws Exception {
 		
 		// parametros para conexão com o MYSQL
-		String host = "jdbc:mysql://localhost:3306/bdprojetoaula03?useTimezone=true&serverTimezone=UTC&useSSL=false";
-		String user = "root";
-		String pass = "reis";
+		String host = "xxxxxx";
+		String user = "xxxxxx";
+		String pass = "xxxxxx";
 		
 		// abrindo conexão com o MYSQL
 		Connection connection = DriverManager	.getConnection(host, user, pass);
